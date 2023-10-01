@@ -1,5 +1,9 @@
 import { Helmet } from "react-helmet";
+import postman from "../images/postman.png"
+import strapi from "../images/strapi.png"
+import AnimatedSection from "./AnimatedSection";
 function Skill() {
+    var w = window.innerWidth;
     let icons1 = [
         {
             k: 0,
@@ -30,7 +34,7 @@ function Skill() {
         },
         {
             k: 5,
-            n: "",
+            n: "JQuery",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
         },
         {
@@ -45,86 +49,116 @@ function Skill() {
         },
         {
             k: 8,
-            n: "Node Js",
-            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-        },
-        {
-            k: 9,
             n: "React Js",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
         },
         {
             k: 10,
-            n: "",
+            n: "Redux Toolkit",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+        },
+        {
+            k: 9,
+            n: "Next Js",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
         },
     ]
     let icons2 = [
         {
-            k: 11,
+            k: 10,
             n: "MySQL",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
         },
         {
-            k: 12,
+            k: 11,
             n: "MongoDB",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
         },
         {
-            k: 13,
-            n: "",
+            k: 12,
+            n: "Neo 4j",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original-wordmark.svg"
-        }
+        },
+        {
+            k: 13,
+            n: "Express Js",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+            k: 13,
+            n: "Redis",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+        },
+        {
+            k: 14,
+            n: "Node Js",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+        },
+        {
+            k: 14,
+            n: "Postgres",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        },
     ]
     let icons3 = [
         {
-            k: 14,
+            k: 15,
+            n: "Postman",
+            lnk: postman
+        },
+        {
+            k: 15,
+            n: "Strapi",
+            lnk: strapi
+        },
+        {
+            k: 15,
             n: "Arduino",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
         },
         {
-            k: 15,
+            k: 16,
             n: "RaspberryPi",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg"
         },
         {
-            k: 16,
-            n: "",
+            k: 17,
+            n: "Numpy",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg"
         },
         {
-            k: 17,
-            n: "",
+            k: 18,
+            n: "Pandas",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
         },
         {
-            k: 18,
-            n: "",
+            k: 19,
+            n: "Github",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
         },
         {
-            k: 19,
-            n: "",
+            k: 20,
+            n: "Git",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
         },
         {
-            k: 20,
-            n: "",
+            k: 21,
+            n: "C",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
         },
         {
-            k: 21,
-            n: "",
+            k: 22,
+            n: "C++",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
         },
         {
-            k: 22,
-            n: "",
+            k: 23,
+            n: "Java",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
         },
         {
-            k: 23,
-            n: "",
+            k: 24,
+            n: "Python",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
         }
     ]
@@ -133,45 +167,50 @@ function Skill() {
             <Helmet>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" />
             </Helmet>
-            <div className="relative grid gap-2 lg:grid-cols-2 mt-[30px]">
-                <img src={require("../images/skillz.png")} className="my-auto h-auto ml-[20px]" />
+            <div className="relative mt-[30px] lg:grid lg:gap-2 lg:grid-cols-2">
+                <img src={require("../images/skillz.png")} className="mx-auto justify-center my-auto" />
                 <div>
-                    <h1 className="text-center font-DM font-black text-4xl mt-16 my-[40px] duration-[300ms] hover:scale-[1.07]">
-                        My Tech Stack 🤓
-                    </h1>
-                    <div className="group justify-center grid gap-2 lg:grid-cols-6">
+                    <AnimatedSection>
+                        <h1 className="text-center font-DM font-black mt-16 my-[40px] duration-[300ms] hover:scale-[1.07] text-[21px] md:text-[25px] lg:text-[32px] xl:text-4xl">
+                            My Tech Stack 🤓
+                        </h1>
+                    </AnimatedSection>
+                    <div className="group relative justify-center grid gap-2 grid-cols-4 sm:grid-cols-5 md:grid-cols-6 mb-12">
                         {icons1.map((icons1, k) =>
-                            <div className="front hover:scale-[1.1] duration-[200ms]">
-                                <p className="text-center font-ra font-black mt-[10px]">
-                                    {icons1.n}
-                                </p>
-                                <img src={icons1.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="drop-shadow-2xl w-[70px] h-[70px] my-[4px] mb-[10px] mx-auto"></img>
-                            </div>)}
-                        <div className="text-neutral-200 duration-[400ms] group-hover:text-black group-hover:scale-[1.2] absolute top-[260px] left-[660px] font-sh rotate-[-90deg] text-[20px]" > Frontend</div>
+                            <AnimatedSection>
+                                <div className="front hover:scale-[1.1] duration-[200ms]">
+                                    <p className="text-center font-ra font-black mt-[10px] text-[16px]">
+                                        {icons1.n}
+                                    </p>
+                                    <img src={icons1.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="my-[4px] mb-[10px] mx-auto drop-shadow-2xl w-[70px] h-[40px] lg:h-[55px] xl:h-[60px]"></img>
+                                </div>
+                            </AnimatedSection>)}
                         <div></div>
+                        <div className="text-neutral-200 text-[20px] opacity-0 duration-[400ms] absolute font-sh lg:top-[110px] lg:left-[-70px] lg:group-hover:text-black lg:group-hover:scale-[1.2] lg:rotate-[-90deg] lg:opacity-100" > Frontend</div>
                     </div>
-                    <div className="group justify-center grid gap-2 lg:grid-cols-6">
-                        {icons2.map((icons2, k) =>
-                            <div className="text-center hover:scale-[1.1] duration-[200ms] ">
-                                <p className="m-auto font-ra font-black mt-[60px]">
-                                    {icons2.n}
-                                </p>
-                                <img src={icons2.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="mx-auto w-[70px] h-[70px] my-[4px] mb-[60px]"></img>
-                            </div>)}
-                        <div className="text-neutral-200 duration-[400ms] group-hover:text-black group-hover:scale-[1.2]  absolute top-[480px] left-[660px] font-sh rotate-[-90deg] text-[20px]"> Backend</div>
+                    <div className=" group relative justify-center grid gap-2 grid-cols-4 sm:grid-cols-5 md:grid-cols-6 mb-12">
+                        {icons2.map((icons3, k) =>
+                            <AnimatedSection>
+                                <div className="text-center hover:scale-[1.1] duration-[200ms] ">
+                                    <p className="m-auto font-ra font-black mt-[10px] text-[16px]">
+                                        {icons3.n}
+                                    </p>
+                                    <img src={icons3.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="mx-auto my-[4px] mb-[10px] w-[70px] h-[40px] lg:h-[55px] xl:h-[60px] object-contain"></img>
+                                </div>
+                            </AnimatedSection>)}
+                        <div className="text-neutral-200 opacity-0 duration-[400ms] absolute lg:top-[80px] lg:left-[-70px] font-sh text-[20px] lg:rotate-[-90deg] lg:opacity-100 lg:group-hover:text-black lg:group-hover:scale-[1.2]"> Backend</div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div className=" group justify-center grid gap-2 lg:grid-cols-6">
+                    <div className=" group relative justify-center grid gap-2 grid-cols-4 sm:grid-cols-5 md:grid-cols-6">
                         {icons3.map((icons3, k) =>
-                            <div className="text-center hover:scale-[1.1] duration-[200ms] ">
-                                <p className="m-auto font-ra font-black mt-[10px]">
-                                    {icons3.n}
-                                </p>
-                                <img src={icons3.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="mx-auto w-[70px] h-[70px] my-[4px] mb-[10px]"></img>
-                            </div>)}
-                            <div className="text-neutral-200 duration-[400ms] group-hover:text-black group-hover:scale-[1.2] absolute top-[700px] left-[660px] font-sh rotate-[-90deg] text-[20px]"> Others</div>
+                            <AnimatedSection>
+                                <div className="text-center hover:scale-[1.1] duration-[200ms] ">
+                                    <p className="m-auto font-ra font-black mt-[10px] text-[16px]">
+                                        {icons3.n}
+                                    </p>
+                                    <img src={icons3.lnk} data-tilt data-tilt-max="35" data-tilt-speed="1000" data-tilt-reverse="true" data-tilt-perspective="3000" className="mx-auto my-[4px] mb-[10px] w-[70px] h-[40px] lg:h-[55px] xl:h-[60px] object-contain"></img>
+                                </div>
+                            </AnimatedSection>)}
+                        <div className="text-neutral-200 opacity-0 duration-[400ms] absolute lg:top-[80px] lg:left-[-70px] font-sh text-[20px] lg:rotate-[-90deg] lg:opacity-100 lg:group-hover:text-black lg:group-hover:scale-[1.2]"> Others</div>
                     </div>
                     <div className="h-[50px]"></div>
                 </div>
