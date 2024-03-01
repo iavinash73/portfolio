@@ -41,7 +41,7 @@ function Hero() {
                     <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                     <span class="text-[16px] relative text-black group-hover:text-white">Let's talk</span>
                 </a>
-                <a href="https://drive.google.com/file/d/1CndQvpp9svb5tnqtT-2M0wG9dr1hhpiZ/view?usp=sharing"  target="_blank" class="relative left-[65px] top-[30px] inline-block px-4 py-2 font-medium group">
+                <a href="https://drive.google.com/file/d/1rLXNpI_F13cKVIa4X4SXwUcmXL7501en/view?usp=sharing"  target="_blank" class="relative left-[65px] top-[30px] inline-block px-4 py-2 font-medium group">
                     <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                     <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                     <span class="text-[16px] relative text-black group-hover:text-white">Resume</span>
