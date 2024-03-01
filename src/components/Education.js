@@ -18,9 +18,9 @@ function Edu() {
         <div>
           <AnimatedSection>
             <div className="float-right text-[18px] text-gray-800 mx-[20px]">
-              2021 - present
+              2021 - Present
             </div>
-            <h1 className="text-black font-ra text-[18px] my-[20px] duration-[300ms] hover:scale-[1.02] lg:hover:scale-[1.05] lg:text-[20px]">
+            <h1 className="text-black font-ra text-[18px] my-[20px] duration-[300ms] hover:scale-[1.01] lg:hover:scale-[1.025] lg:text-[20px]">
               <img
                 src={require("../images/point.gif")}
                 className="w-[20px] h-[20px] inline mr-[5px]"
@@ -29,12 +29,12 @@ function Edu() {
             </h1>
           </AnimatedSection>
           <AnimatedSection>
-            <h2 className="text-gray-400 my-[5px] text-[16px] xl:text-[18px]">
+            <h2 className="text-gray-500 my-[5px] text-[16px] xl:text-[18px]">
               B.Tech in Computer Science & Engineering (Internet of Things)
             </h2>
           </AnimatedSection>
           <AnimatedSection>
-            <div className="text-gray-400 text-[16px] xl:text-[18px]">
+            <div className="text-gray-500 text-[16px] xl:text-[18px]">
               CGPA 9.5
             </div>
           </AnimatedSection>
@@ -45,7 +45,7 @@ function Edu() {
             <div className="float-right text-gray-800 mx-[20px] text-[18px]">
               2019 - 2021
             </div>
-            <h1 className="text-black font-ra text-[18px] my-[20px] duration-[300ms] hover:scale-[1.02] lg:hover:scale-[1.05] lg:text-[20px] ">
+            <h1 className="text-black font-ra text-[18px] my-[20px] duration-[300ms] hover:scale-[1.01] lg:hover:scale-[1.025] lg:text-[20px] ">
               <img
                 src={require("../images/point.gif")}
                 className="w-[20px] h-[20px] inline mr-[5px]"
@@ -54,12 +54,12 @@ function Edu() {
             </h1>
           </AnimatedSection>
           <AnimatedSection>
-            <h2 className="text-gray-400 my-[5px] text-[16px] xl:text-[18px]">
+            <h2 className="text-gray-500 my-[5px] text-[16px] xl:text-[18px]">
               CBSE
             </h2>
           </AnimatedSection>
           <AnimatedSection>
-            <div className="text-gray-400 text-[16px] xl:text-[18px]">
+            <div className="text-gray-500 text-[16px] xl:text-[18px]">
               Percentage: 95%
             </div>
           </AnimatedSection>
@@ -78,14 +78,14 @@ function Edu() {
         <div>
           <AnimatedSection>
             <div className="float-right text-gray-800 mx-[20px] text-[18px]">
-              Jan 2023- Present
+              Jan 2023 - Present
             </div>
-            <h1 className="text-black font-ra text-[18px] my-[10px] duration-[300ms] hover:scale-[1.02] lg:hover:scale-[1.05] lg:text-[20px]">
+            <h1 className="text-black font-ra text-[18px] my-[10px] duration-[300ms] hover:scale-[1.01] lg:hover:scale-[1.025] lg:text-[20px]">
               <img
                 src={require("../images/point.gif")}
                 className="w-[20px] h-[20px] inline mr-[5px]"
               ></img>
-              UNIVERISTY WEB DEV INTERN
+              FULLSTACK INTERN
             </h1>
           </AnimatedSection>
           <AnimatedSection>
@@ -93,7 +93,7 @@ function Edu() {
               Shiv Nadar University, Chennai
             </h2>
           </AnimatedSection>
-          <p className="text-gray-400 my-[10px] text-[16px] xl:text-[18px]">
+          <p className="text-gray-500 my-[10px] text-[16px] xl:text-[18px]">
             <ul>
               <AnimatedSection>
                 <li className=" my-[5px]">
@@ -128,7 +128,7 @@ function Edu() {
                     src={require("../images/list.png")}
                     className="h-[8px] mr-[10px] inline opacity-[0.5]"
                   ></img>
-                  Developed and maintained a parents portal
+                  Developed and maintained a parents portal.
                 </li>
               </AnimatedSection>
             </ul>
@@ -138,22 +138,22 @@ function Edu() {
         <div>
           <AnimatedSection>
             <div className="float-right text-gray-800 mx-[20px] text-[18px]">
-              Nov 2022- Dec 2022
+              Nov 2023 - Jan 2024
             </div>
-            <h1 className="text-black font-ra text-[18px] my-[10px] duration-[300ms] hover:scale-[1.02] lg:hover:scale-[1.05] lg:text-[20px]">
+            <h1 className="text-black font-ra text-[18px] my-[10px] duration-[300ms] hover:scale-[1.01] lg:hover:scale-[1.025] lg:text-[20px]">
               <img
                 src={require("../images/point.gif")}
                 className="w-[20px] h-[20px] inline mr-[5px]"
               ></img>
-              TATA COMMUNICATOINS WEB DEV INTERN
+              SOFTWARE DEVELOPMENT INTERN
             </h1>
           </AnimatedSection>
           <AnimatedSection>
             <h2 className="text-gray-600 duration-[300ms] ml-[24px] hover:scale-[1.01] lg:hover:scale-[1.01] text-[16px] xl:text-[18px]">
-              Tata Communications Limited, Chennai
+              Interain, Chennai
             </h2>
           </AnimatedSection>
-          <p className="text-gray-400 my-[5px] text-[16px] xl:text-[18px]">
+          <p className="text-gray-500 my-[5px] text-[16px] xl:text-[18px]">
             <ul>
               <AnimatedSection>
                 <li className=" my-[5px]">
@@ -161,7 +161,7 @@ function Edu() {
                     src={require("../images/list.png")}
                     className="h-[8px] mr-[10px] inline opacity-[0.5]"
                   ></img>
-                  Developed a web game with HTML, CSS, Js, SQLAlchemy, Flask.
+                  Developed authentication system and managed backend and DB.
                 </li>
               </AnimatedSection>
               <AnimatedSection>
@@ -170,7 +170,7 @@ function Edu() {
                     src={require("../images/list.png")}
                     className="h-[8px] mr-[10px] inline opacity-[0.5]"
                   ></img>
-                  Created custom components for the company’s website.
+                  Collobrated and integrated LLM models with the product.
                 </li>
               </AnimatedSection>
             </ul>

@@ -3,20 +3,36 @@ import AnimatedSection from "./AnimatedSection";
 function Projects() {
     let Data = [
         {
-            k: 1,
-            p_img: "movie.jpeg",
-            p_title: "Movie Recommendation system",
-            p_des: "A system which would recommend movie from global dataset with matching users rating on watched movies and predicting movies which they would possibly like based on related user ratings.",
-            p_link: "https://github.com/iavinash73/Movie-Recommendation-System",
-            p_stack: "Python | Pandas | Numpy | Neo4j"
-        },
-        {
             k: 3,
             p_img: "expense.jpeg",
             p_title: "Spend-o-Meter",
             p_des: "A feature-rich expense tracker enabling effortless expense organization, goal-setting, and savings tracking. Seamlessly manage recurring payments, subscriptions, and even collaborate with friends for shared financial visibility and accountability.",
             p_link: "https://github.com/iavinash73/Spend-o-Meter",
             p_stack: "ReactJs | NodeJs | MongoDB | Redux Toolkit | TailwindCSS"
+        },
+        {
+            k: 4,
+            p_img: "chat.avif",
+            p_title: "ChatoSphere",
+            p_des: "A real-time chat application built using Next.js 13 with App Router, Redis as a database, and Pusher.js for real-time updates. Showcases the power of modern web technologies to create a seamless and responsive chat experience with user authentication provided by NextAuth.",
+            p_link: "https://github.com/iavinash73/Chatosphere",
+            p_stack: "NextJs | Redis | Pusher | NextAuth | TailwindCSS"
+        },
+        {
+            key: 0,
+            p_img: "weedinator.webp",
+            p_title: "Weedinator",
+            p_des: "Designed to detect weeds in real-time video streams. It includes a dashboard for viewing live video feeds with weed detection overlays, an analytics page with charts generated using Chart.js, and a visualization of weed concentrations on an OpenStreetMap.",
+            p_link: "https://github.com/iavinash73/Weedinator",
+            p_stack: "ReactJs | NodeJs | Roboflow | OpenStreetMap | TailwindCSS | Supabase"
+        },
+        {
+            k: 1,
+            p_img: "movie.jpeg",
+            p_title: "Movie Recommendation system",
+            p_des: "A system which would recommend movie from global dataset with matching users rating on watched movies and predicting movies which they would possibly like based on related user ratings.",
+            p_link: "https://github.com/iavinash73/Movie-Recommendation-System",
+            p_stack: "Python | Pandas | Numpy | Neo4j"
         },
         {
             key: 0,

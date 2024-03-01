@@ -30,7 +30,8 @@ function Skill() {
         {
             k: 4,
             n: "Tailwind",
-            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          
         },
         {
             k: 5,
@@ -99,6 +100,11 @@ function Skill() {
             n: "Postgres",
             lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
         },
+        {
+            k:14,
+            n:"Solidity",
+            lnk:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg"
+        }
     ]
     let icons3 = [
         {
@@ -110,6 +116,16 @@ function Skill() {
             k: 15,
             n: "Strapi",
             lnk: strapi
+        },
+        {
+            k:16,
+            n:"Prisma",
+            lnk: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"
+        },
+        {
+            k:16,
+            n:"Docker",
+            lnk:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
         },
         {
             k: 15,
@@ -163,7 +179,7 @@ function Skill() {
         }
     ]
     return (
-        <div id="skillz" className="bg-neutral-200">
+        <div id="skills" className="bg-neutral-200">
             <Helmet>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" />
             </Helmet>
@@ -171,7 +187,7 @@ function Skill() {
                 <img src={require("../images/skillz.png")} className="mx-auto justify-center my-auto" />
                 <div>
                     <AnimatedSection>
-                        <h1 className="text-center font-DM font-black mt-16 my-[40px] duration-[300ms] hover:scale-[1.07] text-[21px] md:text-[25px] lg:text-[32px] xl:text-4xl">
+                        <h1 className="text-center font-DM font-bold mt-16 my-[40px] duration-[300ms] hover:scale-[1.025] text-[21px] md:text-[25px] lg:text-[32px] xl:text-4xl">
                             My Tech Stack 🤓
                         </h1>
                     </AnimatedSection>

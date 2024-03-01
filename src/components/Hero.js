@@ -1,8 +1,9 @@
 import Typewriter from "typewriter-effect";
 import { Helmet } from "react-helmet";
+import { useEffect, useState } from "react";
 function Hero() {
     return (
-        <div className="relative">
+        <div className="relative md:mt-[120px]">
             <img src={require("../images/Background.jpeg")} className="h-[41rem] w-11/12 mt-10 rounded-[12px] mx-auto sm:h-[42rem] md:h-[45rem] lg:h-[33rem] xl:h-[39rem]" />
             <Helmet>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" />
@@ -31,16 +32,16 @@ function Hero() {
                     />
                 </div>
                 <a href="mailto:avinash21110230@snuchennai.edu.in" target="blank">
-                <div className="relative mt-[40px] font-sh text-[16px] md:text-[18px] lg:left-[10px] lg:mt-[40px] xl:text-[20px]">
-                    avinash21110230@snuchennai.edu.in
-                </div>
+                    <div className="relative mt-[40px] font-sh text-[16px] md:text-[18px] lg:left-[10px] lg:mt-[40px] xl:text-[20px]">
+                        avinash21110230@snuchennai.edu.in
+                    </div>
                 </a>
                 <a href="https://www.linkedin.com/in/avinash-pr-0b98a8220/" target="_blank" class="relative left-[15px] top-[30px] inline-block px-4 py-2 font-medium group">
                     <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                     <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                     <span class="text-[16px] relative text-black group-hover:text-white">Let's talk</span>
                 </a>
-                <a href="https://drive.google.com/file/d/1CndQvpp9svb5tnqtT-2M0wG9dr1hhpiZ/view?usp=sharing" target="_blank" class="relative left-[65px] top-[30px] inline-block px-4 py-2 font-medium group">
+                <a href="https://drive.google.com/file/d/1CndQvpp9svb5tnqtT-2M0wG9dr1hhpiZ/view?usp=sharing"  target="_blank" class="relative left-[65px] top-[30px] inline-block px-4 py-2 font-medium group">
                     <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                     <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                     <span class="text-[16px] relative text-black group-hover:text-white">Resume</span>
